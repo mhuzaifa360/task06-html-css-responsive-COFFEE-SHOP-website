@@ -1000,6 +1000,231 @@ footer .col4-icons img{
 }
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 590px) {
+
+
+    body{
+        /* background: #ecbaba; */
+    }
+    .navbar{
+        /* background: #000; */
+        width:  96%;
+        /* padding-left: 200px; */
+        /* padding-right: 2000px; */
+    }
+    .navbar .list-link a{
+        
+        font-weight: 600;
+        font-size: 13px;
+    }
+    .navbar .list-link button{
+        width: 70px;
+        padding: 10px;
+        margin-left: 8px;
+       
+    }
+    .home-content{
+        /* background: #000; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .home-text{
+        /* background: #f7baba; */
+        line-height: 38px;
+        height: 400px;
+    }
+    .home-text h1{
+        font-size: 35px;
+    }
+    .home-text p{
+        font-size: 15px;
+    }
+    .home-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .home-text .home-btn button{
+        font-size: 10px;
+        width: 20%;
+        height: 40px;
+       
+    }
+    .home-text img{
+        /* background: #000; */
+        position: relative;
+        top: -90px;
+        width: 380px;
+    }
+    .home-img img{
+        /* background: #b1e6a1; */
+        position: relative;
+        top: -80px;
+        width: 300px;
+    }
+    
+/* ?------ COFFEE SECTION ---------------------------- */
+.coffee-section{
+  /* background: #000; */
+  height: 330vh;
+}
+.coffee-section h1{
+   
+}
+.coffee-section .row1{
+    /* background: #e01e1e; */
+    
+}
+.row1 .card{
+    margin: 40px;
+    line-height: 30px;
+    width: 260px;
+    height: 250px;
+    /* border-radius: 20px; */
+    
+}
+.row1 .card img{
+    width: 140px;
+    position: relative;
+    top: -70px;
+}
+.row1 .card h2{
+    font-size: 30px;
+}
+.coffee-section .row2{
+   
+}
+.row2 .card{
+    margin: 40px;
+    margin-top: 50px;
+    line-height: 30px;
+    width: 260px;
+    height: 250px;
+    
+}
+.row2 .card h2{
+    font-size: 30px;
+}
+.row2 .card img{
+    width: 140px;
+    position: relative;
+    top: -70px;
+}
+
+
+/* ?------ COFFEE content ---------------------------- */
+.coffee-content{
+   /* background: #000; */
+   flex-wrap: wrap;
+   height: 90vh;
+   
+}
+.coffee-content .coffee-content-img img{
+    width: 300px;
+}
+.coffee-content-text{
+    width: 65%;
+    height: 100px;
+    /* background: #f5cfcf; */
+    font-size: 20px;
+}
+
+
+/* ?------ COLD COFFEE ---------------------------- */
+.cold-coffee{
+    /* flex-wrap: wrap; */
+    height: 170vh;
+    flex-direction: row;
+    /* background: #000; */
+}
+.cold-coffee h1{
+}
+.cold-coffee .row3{
+    
+}
+.row3 .cardc{
+    margin-bottom: 20px;
+    margin: 40px;
+    width: 200px;
+    height: 230px;
+    border:  3px solid white;
+    /* margin: 10px; */
+}
+.cardc .cold-coffee-img{
+    height: 80%;
+    width: 100%;
+    
+}
+.cardc .cold-coffee-img img{
+    width: 80px;
+}
+.cardc .cold-coffee-text{
+    
+}
+
+
+/* ?------   BEANS ---------------------------- */
+
+
+
+.beans-section{
+    width: 100%;
+    height: 160vh;
+    /* background: #000; */
+   
+}
+.beans-section h1{
+}
+.beans-section .row4{
+}
+.beans-section .row4 .cardb{
+        margin-top: 90px;
+        margin: 40px;
+        line-height: 25px;
+        width: 210px;
+        height: 200px;
+        border-radius: 20px;
+        /* border:  3px solid white; */
+        box-shadow: 1px 1px 10px 6px #4b2616;
+        
+    
+}
+.cardb .beans-img{
+    /* background: #000; */
+    width: 50%;
+    height: 70%;
+}
+.cardb img{
+    width: 200px;
+    position: relative;
+    top: -140px;
+    right: 50px;
+}
+.cardb .beans-text{
+   
+}
+
+
+
+/* *----------FOOTER ------------------ */
+footer{
+   
+    width: 100%;
+    height: 130px;
+    font-size: 11px;
+}
+footer span{
+    
+}
+footer .col4-icons img{
+    background: #ffffff;
+    /* width: 200px; */
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
