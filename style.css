@@ -1009,7 +1009,7 @@ footer .col4-icons img{
     }
     .navbar{
         /* background: #000; */
-        width:  96%;
+        width:  90%;
         /* padding-left: 200px; */
         /* padding-right: 2000px; */
     }
@@ -1225,6 +1225,12 @@ footer .col4-icons img{
 }
 }
 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body{
+        /* background: #000; */
+    }
+}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
