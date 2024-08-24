@@ -383,6 +383,23 @@ footer .col4-icons img{
         margin-left: 10px;
        
     }
+
+
+    
+    .home-section{
+        height: 100%;
+    }
+    .coffee-section{
+        height: 100%;
+    }
+    .cold-section{
+        height: 100%;
+    }
+    .beans-section{
+        height: 100%;
+    }
+
+
     .home-text{
         
         line-height: 40px;
@@ -1227,9 +1244,7 @@ footer .col4-icons img{
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    body{
-        /* background: #000; */
-    }
+    
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
